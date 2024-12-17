@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF5DF">
+
+    <!-- RecyclerView para exibir as árvores -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECF5DF"
+        android:layout_above="@id/logoImage"/> <!-- Ajustando para que a RecyclerView fique acima da logo -->
+
+    <!-- Logo da aplicação -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="335dp"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="39dp"
+        android:src="@drawable/logo" />
+
+    <!-- Botão para acessar as árvores cadastradas -->
+    <Button
+        android:id="@+id/btnCarregarArvores"
+        android:layout_width="207dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="229dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Árvores cadastradas"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

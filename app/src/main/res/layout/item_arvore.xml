@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <!-- Nome do Registrante -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Registrante:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#2C3E50"
+            android:layout_marginEnd="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/nomeRegistrante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="João da Silva"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:paddingBottom="4dp"/>
+    </LinearLayout>
+
+    <!-- Nome Científico -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Científico:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#2C3E50"
+            android:layout_marginEnd="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/nomeCientifico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Científico"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:paddingBottom="4dp"/>
+    </LinearLayout>
+
+    <!-- Data de Plantio -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data de Plantio:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#2C3E50"
+            android:layout_marginEnd="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/dataPlantio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01/2024"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:paddingBottom="4dp"/>
+    </LinearLayout>
+
+    <!-- Estado de Saúde -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado de Saúde:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#2C3E50"
+            android:layout_marginEnd="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/estadoSaude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saudável"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:paddingBottom="4dp"/>
+    </LinearLayout>
+
+    <!-- Localização -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Localização:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#2C3E50"
+            android:layout_marginEnd="8dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/localizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rua ABC, nº 123"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:paddingBottom="4dp"/>
+    </LinearLayout>
+</LinearLayout>
